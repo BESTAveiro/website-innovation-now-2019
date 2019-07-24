@@ -1,0 +1,47 @@
+/*                                                                      NAVBAR*/
+.navbar-brand{
+    font-family: Avantgarde;
+    font-size: 160%;
+    margin-top: -0.7%
+}
+.navbar-brand, .nav-link {
+    text-transform: uppercase;
+    color: white;
+}
+
+/*                                                                      STARTING SCREEN*/
+
+.nav-link:hover{
+    font-weight: bolder;
+    color: #82BF45;
+}
+
+.logodiv{
+
+    position: absolute;
+    background-color: rgba(76, 140, 13, 0.0);
+    max-height: 1.8%;
+    max-width: 20%;
+    top: 1%;
+    left:40%;
+    margin-bottom: 0%;
+    z-index: 20;
+}
+.brand-img{
+    padding-top: -40%;
+    height: 100%;
+    width: 100%;
+}
+
+.brand-logo{
+    height: 5%;
+    width: 5%;
+}
+
+.caption{
+    font-weight: bold;
+    color: #184022;
+}
+.project-button{
+    border-color: #184022;
+}
