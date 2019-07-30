@@ -16,7 +16,6 @@
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" sizes="36x36" href="images/fav-icon/logo_mini.png">
 
-
 	<!-- Main style sheet -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!-- responsive style sheet -->
@@ -117,7 +116,7 @@
 								data-mask_in="x:0px;y:[30%];" data-mask_out="x:inherit;y:inherit;" data-start="1000"
 								data-splitin="none" data-splitout="none" data-responsive_offset="on"
 								style="z-index: 6; white-space: nowrap;">
-								<h6>Universidade de Aveiro | 16 e 23 de outubro lol no u</h6>
+								<h6>Universidade de Aveiro | 16 e 23 de outubro</h6>
 							</div>
 
 
@@ -153,19 +152,14 @@
 				<br>
 				<br>
 				<!-- buttons to choose day-->
-				<div>
-					<div class="button left">
-						<a href="#">
-							16 de outubro
-						</a>
-					</div>
-					<div class="button float">
-						<a href="#">
-							23 de outubro
-						</a>
-					</div>
-				</div>
-
+				<ul class="nav md-pills nav-justified pills-rounded pills-outline-green">
+					<li class="nav-item">
+						<a class="nav-link active button left" data-toggle="tab" href="#" role="tab">16 de outubro</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link button float" data-toggle="tab" href="#panel82" role="tab">23 de outubro</a>
+					</li>
+				</ul>
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
@@ -332,32 +326,32 @@
 
 		<!--
 			=====================================================
-				Project Section
+				Oradores
 			=====================================================
 			-->
 		<div id="oradores">
 			<div class="container">
 				<div class="theme-title">
 					<h2>ORADORES</h2>
+					<br />
 				</div> <!-- /.theme-title -->
 
-				<br/>
+				<br />
 
 				<div class="project-gallery clear-fix">
 					<div class="mix grid-item photo om dmedia">
-						<div class="single-img">
-							<img src="images/project/1.jpg" alt="Image">
+						<div class="single-img" data-toggle="modal" data-target="#virgilioBento">
+							<img src="images/speakers/virgilioBento.jpg" alt="Virgílio Bento">
 							<div class="opacity">
 								<div class="border-shape">
 									<div>
 										<div>
-											<h6><a href="#">Sweet Photo</a></h6>
-											<ul>
-												<li>Business /</li>
-												<li>Service /</li>
-												<li>Product /</li>
-												<li>Template</li>
-											</ul>
+											<h6 class="speakersname">
+												<a>Virgílio Bento</a>
+											</h6>
+											<p>
+												CEO SwordHealth
+											</p>
 										</div>
 									</div>
 								</div> <!-- /.border-shape -->
@@ -531,24 +525,343 @@
 								</div> <!-- /.border-shape -->
 							</div> <!-- /.opacity -->
 						</div> <!-- /.single-img -->
-					</div> <!-- /.grid-item -->
 
+						<!--MODALS-->
+
+						<!-- Modal 1-->
+						<div class="modal fade" id="virgilioBento" tabindex="-1" role="dialog"
+							aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLongTitle">Virgílio Bento</h5>
+										<button type="modal-button" class="close" data-dismiss="modal"
+											aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+
+									<div class="modal-body">
+										Virgílio Bento is the author of more than 40 research works in the field of
+										technology. He sought to develop technologies that were capable of exploring the
+										way that humans rehabilitate and, thus, during his PhD in Electronic
+										Engineering, Virgílio developed SWORDPhoenix, a first digital therapy used in
+										physical rehabilitation. He later founded SWORDHealth, completely changing
+										healthcare through the development of digital therapists. He founded Findster, a
+										GPS tracking system for animals, used in more than 70 countries around the
+										world, and took part in the most important MedTech conferences.
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Modal 2-->
+						<div class="modal fade" id="ruiAguiar" tabindex="-1" role="dialog"
+							aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLongTitle">Virgílio Bento</h5>
+										<button type="modal-button" class="close" data-dismiss="modal"
+											aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+
+									<div class="modal-body">
+										Virgílio Bento is the author of more than 40 research works in the field of
+										technology. He sought to develop technologies that were capable of exploring the
+										way that humans rehabilitate and, thus, during his PhD in Electronic
+										Engineering, Virgílio developed SWORDPhoenix, a first digital therapy used in
+										physical rehabilitation. He later founded SWORDHealth, completely changing
+										healthcare through the development of digital therapists. He founded Findster, a
+										GPS tracking system for animals, used in more than 70 countries around the
+										world, and took part in the most important MedTech conferences.
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--Modal-->
+
+					</div> <!-- /.grid-item -->
 				</div> <!-- /.project-gallery -->
 			</div> <!-- /.container -->
-		</div> <!-- /#project-section -->
+
+		</div> <!-- /#oradores -->
 
 		<!--
 			=====================================================
-				Page middle banner
+				Embaixadores
+			=====================================================
+			-->
+		<div id="oradores">
+			<div class="container">
+				<div class="theme-title">
+					<h2>EMBAIXADORES</h2>
+					<br />
+				</div> <!-- /.theme-title -->
+
+				<br />
+
+				<div class="project-gallery clear-fix">
+					<div class="mix grid-item photo om dmedia">
+						<div class="single-img" data-toggle="modal" data-target="#virgilioBento">
+							<img src="images/speakers/virgilioBento.jpg" alt="Virgílio Bento">
+							<div class="opacity">
+								<div class="border-shape">
+									<div>
+										<div>
+											<h6 class="speakersname">
+												<a>Virgílio Bento</a>
+											</h6>
+											<p>
+												CEO SwordHealth
+											</p>
+										</div>
+									</div>
+								</div> <!-- /.border-shape -->
+							</div> <!-- /.opacity -->
+						</div> <!-- /.single-img -->
+					</div> <!-- /.grid-item -->
+
+					<div class="mix grid-item web webd dmedia support">
+						<div class="single-img">
+							<img src="images/project/2.jpg" alt="Image">
+							<div class="opacity">
+								<div class="border-shape">
+									<div>
+										<div>
+											<h6><a href="#">Sweet Photo</a></h6>
+											<ul>
+												<li>Business /</li>
+												<li>Service /</li>
+												<li>Product /</li>
+												<li>Template</li>
+											</ul>
+										</div>
+									</div>
+								</div> <!-- /.border-shape -->
+							</div> <!-- /.opacity -->
+						</div> <!-- /.single-img -->
+					</div> <!-- /.grid-item -->
+
+					<div class="mix grid-item photo webd support">
+						<div class="single-img">
+							<img src="images/project/3.jpg" alt="Image">
+							<div class="opacity">
+								<div class="border-shape">
+									<div>
+										<div>
+											<h6><a href="#">Sweet Photo</a></h6>
+											<ul>
+												<li>Business /</li>
+												<li>Service /</li>
+												<li>Product /</li>
+												<li>Template</li>
+											</ul>
+										</div>
+									</div>
+								</div> <!-- /.border-shape -->
+							</div> <!-- /.opacity -->
+						</div> <!-- /.single-img -->
+					</div> <!-- /.grid-item -->
+
+					<div class="mix grid-item web om">
+						<div class="single-img">
+							<img src="images/project/4.jpg" alt="Image">
+							<div class="opacity">
+								<div class="border-shape">
+									<div>
+										<div>
+											<h6><a href="#">Sweet Photo</a></h6>
+											<ul>
+												<li>Business /</li>
+												<li>Service /</li>
+												<li>Product /</li>
+												<li>Template</li>
+											</ul>
+										</div>
+									</div>
+								</div> <!-- /.border-shape -->
+							</div> <!-- /.opacity -->
+						</div> <!-- /.single-img -->
+					</div> <!-- /.grid-item -->
+
+					<div class="mix grid-item photo webd dmedia om">
+						<div class="single-img">
+							<img src="images/project/5.jpg" alt="Image">
+							<div class="opacity">
+								<div class="border-shape">
+									<div>
+										<div>
+											<h6><a href="#">Sweet Photo</a></h6>
+											<ul>
+												<li>Business /</li>
+												<li>Service /</li>
+												<li>Product /</li>
+												<li>Template</li>
+											</ul>
+										</div>
+									</div>
+								</div> <!-- /.border-shape -->
+							</div> <!-- /.opacity -->
+						</div> <!-- /.single-img -->
+					</div> <!-- /.grid-item -->
+
+					<div class="mix grid-item web webd dmedia om">
+						<div class="single-img">
+							<img src="images/project/6.jpg" alt="Image">
+							<div class="opacity">
+								<div class="border-shape">
+									<div>
+										<div>
+											<h6><a href="#">Sweet Photo</a></h6>
+											<ul>
+												<li>Business /</li>
+												<li>Service /</li>
+												<li>Product /</li>
+												<li>Template</li>
+											</ul>
+										</div>
+									</div>
+								</div> <!-- /.border-shape -->
+							</div> <!-- /.opacity -->
+						</div> <!-- /.single-img -->
+					</div> <!-- /.grid-item -->
+
+					<div class="mix grid-item photo om support">
+						<div class="single-img">
+							<img src="images/project/7.jpg" alt="Image">
+							<div class="opacity">
+								<div class="border-shape">
+									<div>
+										<div>
+											<h6><a href="#">Sweet Photo</a></h6>
+											<ul>
+												<li>Business /</li>
+												<li>Service /</li>
+												<li>Product /</li>
+												<li>Template</li>
+											</ul>
+										</div>
+									</div>
+								</div> <!-- /.border-shape -->
+							</div> <!-- /.opacity -->
+						</div> <!-- /.single-img -->
+					</div> <!-- /.grid-item -->
+
+					<div class="mix grid-item web support">
+						<div class="single-img">
+							<img src="images/project/8.jpg" alt="Image">
+							<div class="opacity">
+								<div class="border-shape">
+									<div>
+										<div>
+											<h6><a href="#">Sweet Photo</a></h6>
+											<ul>
+												<li>Business /</li>
+												<li>Service /</li>
+												<li>Product /</li>
+												<li>Template</li>
+											</ul>
+										</div>
+									</div>
+								</div> <!-- /.border-shape -->
+							</div> <!-- /.opacity -->
+						</div> <!-- /.single-img -->
+					</div> <!-- /.grid-item -->
+
+					<div class="mix grid-item photo webd dmedia support">
+						<div class="single-img">
+							<img src="images/project/9.jpg" alt="Image">
+							<div class="opacity">
+								<div class="border-shape">
+									<div>
+										<div>
+											<h6><a href="#">Sweet Photo</a></h6>
+											<ul>
+												<li>Business /</li>
+												<li>Service /</li>
+												<li>Product /</li>
+												<li>Template</li>
+											</ul>
+										</div>
+									</div>
+								</div> <!-- /.border-shape -->
+							</div> <!-- /.opacity -->
+						</div> <!-- /.single-img -->
+
+						<!--MODALS-->
+
+						<!-- Modal -->
+						<div class="modal fade" id="virgilioBento" tabindex="-1" role="dialog"
+							aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLongTitle">Virgílio Bento</h5>
+										<button type="modal-button" class="close" data-dismiss="modal"
+											aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+
+									<div class="modal-body">
+										Virgílio Bento is the author of more than 40 research works in the field of
+										technology. He sought to develop technologies that were capable of exploring the
+										way that humans rehabilitate and, thus, during his PhD in Electronic
+										Engineering, Virgílio developed SWORDPhoenix, a first digital therapy used in
+										physical rehabilitation. He later founded SWORDHealth, completely changing
+										healthcare through the development of digital therapists. He founded Findster, a
+										GPS tracking system for animals, used in more than 70 countries around the
+										world, and took part in the most important MedTech conferences.
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--Modal-->
+
+					</div> <!-- /.grid-item -->
+				</div> <!-- /.project-gallery -->
+			</div> <!-- /.container -->
+
+		</div> <!-- /#EMBAIXADORES -->
+
+		<!--
+			=====================================================
+				Partners banner
 			=====================================================
 			-->
 
 		<div class="page-middle-banner">
 			<div class="opacity">
-				<h3>We Create Creative <span class="p-color">&amp;</span> Best Unique Design</h3>
-				<a href="#" class="hvr-bounce-to-right">Let's Work Together</a>
+				<h3>Quero ser um parceiro</h3>
+				<a href="#" class="hvr-bounce-to-right">Resgistar-me</a>
 			</div> <!-- /.opacity -->
 		</div> <!-- /.page-middle-banner -->
+
+
+		<!--
+			=====================================================
+				Partner Section
+			=====================================================
+			-->
+
+		<br />
+		<hr />
+		<div id="partner-section">
+			<div class="container">
+				<div id="partner_logo" class="owl-carousel owl-theme">
+					<div class="item"><img src="images/logo/p1.png" alt="logo"></div>
+					<div class="item"><img src="images/logo/p2.png" alt="logo"></div>
+					<div class="item"><img src="images/logo/p3.png" alt="logo"></div>
+					<div class="item"><img src="images/logo/p4.png" alt="logo"></div>
+					<div class="item"><img src="images/logo/p5.png" alt="logo"></div>
+					<div class="item"><img src="images/logo/p2.png" alt="logo"></div>
+				</div> <!-- End .partner_logo -->
+			</div> <!-- /.container -->
+		</div> <!-- /#partner-section -->
+
 
 
 		<!--
@@ -654,122 +967,6 @@
 		</div> <!-- /#team-section -->
 
 
-
-		<!--
-			=====================================================
-				Skill Section
-			=====================================================
-			-->
-		<div id="skill-section">
-			<div class="container">
-				<div class="clear-fix">
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-						<div class="img"><img src="images/home/2.jpg" alt="Image"></div>
-					</div> <!-- /.col- -->
-
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-						<div class="skills-progress skills">
-							<div class="habilidades_contenedor">
-								<div class="codeconSkills">
-									<div class="codeconSkillbar">
-										<div class="skill-text">
-											<span class="codeconSkillArea">Web Development</span>
-										</div>
-										<div class="skillBar" data-percent="89%">
-											<span class="PercentText">89%</span>
-										</div>
-									</div>
-									<div class="codeconSkillbar">
-										<div class="skill-text">
-											<span class="codeconSkillArea ">Online Marketing</span>
-
-										</div>
-										<div class="skillBar" data-percent="58%">
-											<span class="PercentText">58%</span>
-										</div>
-									</div>
-									<div class="codeconSkillbar">
-										<div class="skill-text">
-											<span class="codeconSkillArea">Digital Media</span>
-
-										</div>
-										<div class="skillBar" data-percent="49%">
-											<span class="PercentText">49%</span>
-										</div>
-									</div>
-									<div class="codeconSkillbar">
-										<div class="skill-text">
-											<span class="codeconSkillArea">Photography</span>
-
-										</div>
-										<div class="skillBar" data-percent="76%">
-											<span class="PercentText">76%</span>
-										</div>
-									</div>
-									<div class="codeconSkillbar">
-										<div class="skill-text">
-											<span class="codeconSkillArea">Creative Design</span>
-
-										</div>
-										<div class="skillBar" data-percent="64%">
-											<span class="PercentText ">64%</span>
-										</div>
-									</div>
-								</div> <!-- /.codeconSkills -->
-							</div> <!-- /.habilidades_contenedor -->
-						</div> <!-- /.skills-progress -->
-					</div>
-				</div> <!-- /.clear-fix -->
-			</div> <!-- /.container -->
-		</div> <!-- /#skill-section -->
-
-
-
-		<!--
-			=====================================================
-				Our Client
-			=====================================================
-			-->
-		<div id="our-client">
-			<div class="container">
-				<div class="theme-title">
-					<h2>OUR HAPPY CLIENTS</h2>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-						of type.</p>
-				</div> <!-- /.theme-title -->
-
-				<div class="client-slider">
-					<div class="item">
-						<img src="images/home/c1.jpg" alt="Client">
-						<p>Our successful construction approach is based on aggressive subcontractor administration,
-							employ-ment of competent personnel, accurate schedule control, quality control and cost
-							control. We employ only qualified subcontractors who share our goal in creating quality
-							projects.</p>
-						<h6>- Spryte Loriano -</h6>
-					</div> <!-- /.item -->
-					<div class="item">
-						<img src="images/home/c2.jpg" alt="Client">
-						<p>Our successful construction approach is based on aggressive subcontractor administration,
-							employ-ment of competent personnel, accurate schedule control, quality control and cost
-							control. We employ only qualified subcontractors who share our goal in creating quality
-							projects.</p>
-						<h6>- Spryte Loriano -</h6>
-					</div> <!-- /.item -->
-					<div class="item">
-						<img src="images/home/c3.jpg" alt="Client">
-						<p>Our successful construction approach is based on aggressive subcontractor administration,
-							employ-ment of competent personnel, accurate schedule control, quality control and cost
-							control. We employ only qualified subcontractors who share our goal in creating quality
-							projects.</p>
-						<h6>- Spryte Loriano -</h6>
-					</div> <!-- /.item -->
-				</div> <!-- /.client-slider -->
-			</div> <!-- /.container -->
-		</div> <!-- /#our-client -->
-
-
-
 		<!--
 			=====================================================
 				Pricing Section
@@ -828,105 +1025,6 @@
 				</div>
 			</div> <!-- /.container -->
 		</div> <!-- /#pricing-section -->
-
-
-
-		<!--
-			=====================================================
-				Blog Section
-			=====================================================
-			-->
-		<div id="blog-section">
-			<div class="container">
-				<div class="theme-title">
-					<h2>OUR LATEST Blog</h2>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-						of type.</p>
-				</div> <!-- /.theme-title -->
-
-				<div class="clear-fix">
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-						<div class="single-news-item">
-							<div class="img"><img src="images/blog/1.jpg" alt="Image">
-								<a href="blog-details.html" class="opacity tran4s"><i class="fa fa-link"
-										aria-hidden="true"></i></a>
-							</div> <!-- /.img -->
-
-							<div class="post">
-								<h6><a href="blog-details.html" class="tran3s">Playback: Akufo-Addo speaks to business
-										community</a></h6>
-								<a href="blog-details.html">Posted by <span class="p-color">admin</span> at 04 Feb,
-									2017</a>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis iaculis velit
-									in tristique. Curabitur ac urna urna sed accumsan... <a href="blog-details.html"
-										class="tran3s">Read More</a></p>
-							</div> <!-- /.post -->
-						</div> <!-- /.single-news-item -->
-					</div> <!-- /.col- -->
-
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-						<div class="single-news-item">
-							<div class="img"><img src="images/blog/2.jpg" alt="Image">
-								<a href="blog-details.html" class="opacity tran4s"><i class="fa fa-link"
-										aria-hidden="true"></i></a>
-							</div> <!-- /.img -->
-
-							<div class="post">
-								<h6><a href="blog-details.html" class="tran3s">Playback: Akufo-Addo speaks to business
-										community</a></h6>
-								<a href="blog-details.html">Posted by <span class="p-color">admin</span> at 04 Feb,
-									2017</a>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis iaculis velit
-									in tristique. Curabitur ac urna urna sed accumsan... <a href="blog-details.html"
-										class="tran3s">Read More</a></p>
-							</div> <!-- /.post -->
-						</div> <!-- /.single-news-item -->
-					</div> <!-- /.col- -->
-
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-						<div class="single-news-item">
-							<div class="img"><img src="images/blog/3.jpg" alt="Image">
-								<a href="blog-details.html" class="opacity tran4s"><i class="fa fa-link"
-										aria-hidden="true"></i></a>
-							</div> <!-- /.img -->
-
-							<div class="post">
-								<h6><a href="blog-details.html" class="tran3s">Playback: Akufo-Addo speaks to business
-										community</a></h6>
-								<a href="blog-details.html">Posted by <span class="p-color">admin</span> at 04 Feb,
-									2017</a>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis iaculis velit
-									in tristique. Curabitur ac urna urna sed accumsan... <a href="blog-details.html"
-										class="tran3s">Read More</a></p>
-							</div> <!-- /.post -->
-						</div> <!-- /.single-news-item -->
-					</div> <!-- /.col- -->
-				</div> <!-- /.clear-fix -->
-			</div> <!-- /.container -->
-		</div> <!-- /#blog-section -->
-
-
-
-		<!--
-			=====================================================
-				Partner Section
-			=====================================================
-			-->
-		<div id="partner-section">
-			<div class="container">
-				<div id="partner_logo" class="owl-carousel owl-theme">
-					<div class="item"><img src="images/logo/p1.png" alt="logo"></div>
-					<div class="item"><img src="images/logo/p2.png" alt="logo"></div>
-					<div class="item"><img src="images/logo/p3.png" alt="logo"></div>
-					<div class="item"><img src="images/logo/p4.png" alt="logo"></div>
-					<div class="item"><img src="images/logo/p5.png" alt="logo"></div>
-					<div class="item"><img src="images/logo/p2.png" alt="logo"></div>
-				</div> <!-- End .partner_logo -->
-			</div> <!-- /.container -->
-		</div> <!-- /#partner-section -->
-
-
 
 		<!--
 			=====================================================

@@ -45,3 +45,44 @@
 .project-button{
     border-color: #184022;
 }
+
+
+
+/*                                                          MODALS*/
+
+.modal{
+    top: 10%;
+    height: 150%;
+    vertical-align: center;
+    text-align: justify;
+    font-size: 120%;
+    letter-spacing: 120%;
+    line-height: 155%;
+}
+
+.modal-header{
+    height: 50px;
+}
+
+.modal-title, .modal-button{
+    vertical-align: center;
+}
+
+.modal-title{
+    float: left;
+}
+
+.modal-button{
+    float: right;
+}
+
+.modal-body{
+    color: black;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.speakersname{
+    cursor: pointer;
+}
