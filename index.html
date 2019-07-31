@@ -24,6 +24,7 @@
 	<!--Customized style sheet-->
 	<link rel="stylesheet" type="text/css" href="css/custom-style.css">
 
+
 	<!-- Fix Internet Explorer ______________________________________-->
 
 	<!--[if lt IE 9]>
@@ -151,79 +152,92 @@
 				</div> <!-- /.theme-title -->
 				<br>
 				<br>
-				<!-- buttons to choose day-->
-				<ul class="nav md-pills nav-justified pills-rounded pills-outline-green">
+				<!--buttons-->
+				<ul class="nav nav-pills mb-3 md-pills nav-justified pills-rounded pills-outline-green" id="pills-tab"
+					role="tablist">
 					<li class="nav-item">
-						<a class="nav-link active button left" data-toggle="tab" href="#" role="tab">16 de outubro</a>
+						<a class="nav-link active" id="first-tab" data-toggle="tab" href="#firstday" role="tab"
+							aria-controls="firstday" aria-selected="true">16 de outubro</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link button float" data-toggle="tab" href="#panel82" role="tab">23 de outubro</a>
+						<a class="nav-link" id="second-tab" data-toggle="tab" href="#secondday" role="tab"
+							aria-controls="secondday" aria-selected="true">23 de outubro</a>
 					</li>
 				</ul>
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="main-timeline">
-								<div class="timeline">
-									<div class="icon"></div>
-									<div class="date-content">
-										<div class="date-outer">
-											<span class="date">
-												<span class="month">8:15</span>
-											</span>
-										</div>
-									</div>
-									<div class="timeline-content">
-										<h3 class="title">Check In</h3>
-										<p class="description">
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex
-											sit amet massa scelerisque scelerisque.
-										</p>
+				<!--buttons-->
+				<div class="tab-content" id="myTabContent">
+					<!--First button active-->
+					<div class="tab-pane fade show active" id="firstday" role="tabpanel" aria-labelledby="first-tab">
+						<section class="timeline">
+							<div class="container">
+								<div class="timeline-item">
+
+									<div class="timeline-img"></div>
+
+									<div class="timeline-content js--fadeInLeft">
+										<h2>Title</h2>
+										<div class="date">8:15</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione
+											omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem.</p>
+										<a class="bnt-more" href="#">Inscrever-me</a>
 									</div>
 								</div>
-								<div class="timeline">
-									<div class="icon"></div>
-									<div class="date-content">
-										<div class="date-outer">
-											<span class="date">
-												<span class="month">9:30</span>
-											</span>
-										</div>
-									</div>
-									<div class="timeline-content">
-										<h3 class="title">Opening Session</h3>
-										<p class="description">
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex
-											sit amet massa scelerisque scelerisque.
-										</p>
+								<!--timeline-item-->
+								<div class="timeline-item">
+									<div class="timeline-img"></div>
+
+									<div class="timeline-content js--fadeInRight">
+										<h2>Title</h2>
+										<div class="date">8:15</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione
+											omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem.</p>
+										<a class="bnt-more" href="#">Inscrever-me</a>
 									</div>
 								</div>
-								<div class="timeline">
-									<div class="icon"></div>
-									<div class="date-content">
-										<div class="date-outer">
-											<span class="date">
-												<span class="month">10:00</span>
-											</span>
-										</div>
-									</div>
-									<div class="timeline-content">
-										<h3 class="title">Coffee Break</h3>
-										<p class="description">
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex
-											sit amet massa scelerisque scelerisque.
-										</p>
-									</div>
-								</div>
+								<!--timeline-item-->
+
 							</div>
-						</div>
+							<!--container-->
+						</section>
+
+					</div>
+					<!--Second button active-->
+					<div class="tab-pane fade" id="secondday" role="tabpanel" aria-labelledby="second-tab">
+						<section class="timeline">
+							<div class="container">
+								<div class="timeline-item">
+									<div class="timeline-img"></div>
+
+									<div class="timeline-content js--fadeInLeft">
+										<h2>LOLLL</h2>
+										<div class="date">8:15</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione
+											omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem.</p>
+										<a class="bnt-more" href="#">Inscrever-me</a>
+									</div>
+								</div>
+								<!--timeline-item-->
+								<div class="timeline-item">
+									<div class="timeline-img"></div>
+
+									<div class="timeline-content js--fadeInRight">
+										<h2>Title</h2>
+										<div class="date">8:15</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione
+											omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem.</p>
+										<a class="bnt-more" href="#">Inscrever-me</a>
+									</div>
+								</div>
+								<!--timeline-item-->
+
+							</div>
+							<!--container-->
+						</section>
+
 					</div>
 				</div>
 
-			</div> <!-- /.container -->
-		</section> <!-- /#about-us -->
-
-
+		</section>
 		<!--
 			=====================================================
 				ATIVIDADES
@@ -243,11 +257,17 @@
 										src="images/activities/speeches.png" /></div>
 								<h6 class="tran3s">Speeches</a></h6>
 							</div>
-							<p>The main activity of the event. It will feature people who are connected to innovation,
+							<p>The main activity of the event. It will feature people who are connected
+								to
+								innovation,
 								entrepreneurship or
-								research who will have the opportunity to share their motivation, ideas, histories and
+								research who will have the opportunity to share their motivation, ideas,
+								histories and
 								essentially their passion
-								about these themes. Participants will be able to hear them and get motivated by doing
+								about these themes. Participants will be able to hear them and get
+								motivated
+								by
+								doing
 								so.</p>
 						</div> <!-- /.single-service-content -->
 					</div> <!-- /.col-lg -->
@@ -259,9 +279,11 @@
 										src="images/activities/roundtable.png" /></div>
 								<h6 class="tran3s">Round Tables</h6>
 							</div>
-							<p>The concept of Round Table consists of a space for discussion between company
+							<p>The concept of Round Table consists of a space for discussion between
+								company
 								representatives, students and
-								entities from the university with the purpose of bringing together our three
+								entities from the university with the purpose of bringing together our
+								three
 								stakeholders and discussing a
 								certain topic related to scientific and technological innovation . </p>
 						</div> <!-- /.single-service-content -->
@@ -274,9 +296,12 @@
 										src="images/activities/pitch.png" /></div>
 								<h6 class="tran3s">Pitch Contest</h6>
 							</div>
-							<p>This session consists of a competition where participants will have to develop a brief
+							<p>This session consists of a competition where participants will have to
+								develop a
+								brief
 								presentation about an idea,
-								solving a challenge. The main purpose of the session is to challenge participants and
+								solving a challenge. The main purpose of the session is to challenge
+								participants and
 								their pitching skills.</p>
 						</div> <!-- /.single-service-content -->
 					</div> <!-- /.col-lg -->
@@ -288,7 +313,9 @@
 										src="images/activities/discussiongroups.png" /></div>
 								<h6 class="tran3s">Discussion Groups</a></h6>
 							</div>
-							<p>In this session, the participants will have the chance to discuss some themes related to
+							<p>In this session, the participants will have the chance to discuss some
+								themes
+								related to
 								innovation and how some
 								companies had success in the last years by innovating</p>
 						</div> <!-- /.single-service-content -->
@@ -301,9 +328,15 @@
 								</div>
 								<h6 class="tran3s">Showroom</h6>
 							</div>
-							<p>This session consists of a space open to all the academic community where the company can
-								demonstrate an innovative product or service. Within this session, the company will also
-								have the chance to present itself regarding the field in which it is operating, in the
+							<p>This session consists of a space open to all the academic community where
+								the
+								company can
+								demonstrate an innovative product or service. Within this session, the
+								company
+								will also
+								have the chance to present itself regarding the field in which it is
+								operating,
+								in the
 								form of a pitch.</p>
 						</div> <!-- /.single-service-content -->
 					</div> <!-- /.col-lg -->
@@ -315,8 +348,12 @@
 								</div>
 								<h6 class="tran3s">Cocktail Network</h6>
 							</div>
-							<p>After the showroom, a cocktail network will happen, where partners, companies and
-								speakers can be present, giving the opportunity for participants to communicate with
+							<p>After the showroom, a cocktail network will happen, where partners,
+								companies
+								and
+								speakers can be present, giving the opportunity for participants to
+								communicate
+								with
 								everyone, in a more informal way.</p>
 						</div> <!-- /.single-service-content -->
 					</div> <!-- /.col-lg -->
@@ -534,7 +571,9 @@
 							<div class="modal-dialog modal-dialog-centered" role="document">
 								<div class="modal-content">
 									<div class="modal-header">
-										<h5 class="modal-title" id="exampleModalLongTitle">Virgílio Bento</h5>
+										<h5 class="modal-title" id="exampleModalLongTitle">Virgílio
+											Bento
+										</h5>
 										<button type="modal-button" class="close" data-dismiss="modal"
 											aria-label="Close">
 											<span aria-hidden="true">&times;</span>
@@ -542,13 +581,27 @@
 									</div>
 
 									<div class="modal-body">
-										Virgílio Bento is the author of more than 40 research works in the field of
-										technology. He sought to develop technologies that were capable of exploring the
-										way that humans rehabilitate and, thus, during his PhD in Electronic
-										Engineering, Virgílio developed SWORDPhoenix, a first digital therapy used in
-										physical rehabilitation. He later founded SWORDHealth, completely changing
-										healthcare through the development of digital therapists. He founded Findster, a
-										GPS tracking system for animals, used in more than 70 countries around the
+										Virgílio Bento is the author of more than 40 research works in
+										the
+										field
+										of
+										technology. He sought to develop technologies that were capable
+										of
+										exploring the
+										way that humans rehabilitate and, thus, during his PhD in
+										Electronic
+										Engineering, Virgílio developed SWORDPhoenix, a first digital
+										therapy
+										used in
+										physical rehabilitation. He later founded SWORDHealth,
+										completely
+										changing
+										healthcare through the development of digital therapists. He
+										founded
+										Findster, a
+										GPS tracking system for animals, used in more than 70 countries
+										around
+										the
 										world, and took part in the most important MedTech conferences.
 									</div>
 								</div>
@@ -561,7 +614,9 @@
 							<div class="modal-dialog modal-dialog-centered" role="document">
 								<div class="modal-content">
 									<div class="modal-header">
-										<h5 class="modal-title" id="exampleModalLongTitle">Virgílio Bento</h5>
+										<h5 class="modal-title" id="exampleModalLongTitle">Virgílio
+											Bento
+										</h5>
 										<button type="modal-button" class="close" data-dismiss="modal"
 											aria-label="Close">
 											<span aria-hidden="true">&times;</span>
@@ -569,13 +624,27 @@
 									</div>
 
 									<div class="modal-body">
-										Virgílio Bento is the author of more than 40 research works in the field of
-										technology. He sought to develop technologies that were capable of exploring the
-										way that humans rehabilitate and, thus, during his PhD in Electronic
-										Engineering, Virgílio developed SWORDPhoenix, a first digital therapy used in
-										physical rehabilitation. He later founded SWORDHealth, completely changing
-										healthcare through the development of digital therapists. He founded Findster, a
-										GPS tracking system for animals, used in more than 70 countries around the
+										Virgílio Bento is the author of more than 40 research works in
+										the
+										field
+										of
+										technology. He sought to develop technologies that were capable
+										of
+										exploring the
+										way that humans rehabilitate and, thus, during his PhD in
+										Electronic
+										Engineering, Virgílio developed SWORDPhoenix, a first digital
+										therapy
+										used in
+										physical rehabilitation. He later founded SWORDHealth,
+										completely
+										changing
+										healthcare through the development of digital therapists. He
+										founded
+										Findster, a
+										GPS tracking system for animals, used in more than 70 countries
+										around
+										the
 										world, and took part in the most important MedTech conferences.
 									</div>
 								</div>
@@ -594,7 +663,7 @@
 				Embaixadores
 			=====================================================
 			-->
-		<div id="oradores">
+		<div id="embaixadores">
 			<div class="container">
 				<div class="theme-title">
 					<h2>EMBAIXADORES</h2>
@@ -799,7 +868,9 @@
 							<div class="modal-dialog modal-dialog-centered" role="document">
 								<div class="modal-content">
 									<div class="modal-header">
-										<h5 class="modal-title" id="exampleModalLongTitle">Virgílio Bento</h5>
+										<h5 class="modal-title" id="exampleModalLongTitle">Virgílio
+											Bento
+										</h5>
 										<button type="modal-button" class="close" data-dismiss="modal"
 											aria-label="Close">
 											<span aria-hidden="true">&times;</span>
@@ -807,13 +878,27 @@
 									</div>
 
 									<div class="modal-body">
-										Virgílio Bento is the author of more than 40 research works in the field of
-										technology. He sought to develop technologies that were capable of exploring the
-										way that humans rehabilitate and, thus, during his PhD in Electronic
-										Engineering, Virgílio developed SWORDPhoenix, a first digital therapy used in
-										physical rehabilitation. He later founded SWORDHealth, completely changing
-										healthcare through the development of digital therapists. He founded Findster, a
-										GPS tracking system for animals, used in more than 70 countries around the
+										Virgílio Bento is the author of more than 40 research works in
+										the
+										field
+										of
+										technology. He sought to develop technologies that were capable
+										of
+										exploring the
+										way that humans rehabilitate and, thus, during his PhD in
+										Electronic
+										Engineering, Virgílio developed SWORDPhoenix, a first digital
+										therapy
+										used in
+										physical rehabilitation. He later founded SWORDHealth,
+										completely
+										changing
+										healthcare through the development of digital therapists. He
+										founded
+										Findster, a
+										GPS tracking system for animals, used in more than 70 countries
+										around
+										the
 										world, and took part in the most important MedTech conferences.
 									</div>
 								</div>
@@ -832,36 +917,30 @@
 				Partners banner
 			=====================================================
 			-->
-
-		<div class="page-middle-banner">
-			<div class="opacity">
-				<h3>Quero ser um parceiro</h3>
-				<a href="#" class="hvr-bounce-to-right">Resgistar-me</a>
-			</div> <!-- /.opacity -->
-		</div> <!-- /.page-middle-banner -->
-
-
-		<!--
-			=====================================================
-				Partner Section
-			=====================================================
-			-->
-
-		<br />
-		<hr />
+		<!--banner-->
 		<div id="partner-section">
-			<div class="container">
-				<div id="partner_logo" class="owl-carousel owl-theme">
-					<div class="item"><img src="images/logo/p1.png" alt="logo"></div>
-					<div class="item"><img src="images/logo/p2.png" alt="logo"></div>
-					<div class="item"><img src="images/logo/p3.png" alt="logo"></div>
-					<div class="item"><img src="images/logo/p4.png" alt="logo"></div>
-					<div class="item"><img src="images/logo/p5.png" alt="logo"></div>
-					<div class="item"><img src="images/logo/p2.png" alt="logo"></div>
-				</div> <!-- End .partner_logo -->
-			</div> <!-- /.container -->
-		</div> <!-- /#partner-section -->
-
+			<div class=" page-middle-banner">
+				<div class="opacity">
+					<h3>Quero ser um parceiro</h3>
+					<a href="#" class="hvr-bounce-to-right" style="border-radius: 20px;">Resgistar-me</a>
+				</div> <!-- /.opacity -->
+			</div> <!-- /.page-middle-banner -->
+			<!--section-->
+			<br />
+			<hr />
+			<div>
+				<div class="container">
+					<div id="partner_logo" class="owl-carousel owl-theme">
+						<div class="item"><img src="images/logo/p1.png" alt="logo"></div>
+						<div class="item"><img src="images/logo/p2.png" alt="logo"></div>
+						<div class="item"><img src="images/logo/p3.png" alt="logo"></div>
+						<div class="item"><img src="images/logo/p4.png" alt="logo"></div>
+						<div class="item"><img src="images/logo/p5.png" alt="logo"></div>
+						<div class="item"><img src="images/logo/p2.png" alt="logo"></div>
+					</div> <!-- End .partner_logo -->
+				</div> <!-- /.container -->
+			</div> <!-- /#partner-section -->
+		</div>
 
 
 		<!--
@@ -869,12 +948,16 @@
 				Team Section
 			=====================================================
 			-->
-		<div id="team-section">
+		<div id="contactos">
 			<div class="container">
 				<div class="theme-title">
 					<h2>Meet our Team</h2>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-						the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+						Ipsum
+						has been
+						the industry's standard dummy text ever since the 1500s, when an unknown printer
+						took a
+						galley
 						of type.</p>
 				</div> <!-- /.theme-title -->
 
@@ -886,7 +969,9 @@
 								<div class="opacity tran4s">
 									<h4>Gonzalez Gina</h4>
 									<span>Web Developer</span>
-									<p>On the other hand, We denounce ut with righteo indignation and dislike men who
+									<p>On the other hand, We denounce ut with righteo indignation and
+										dislike
+										men who
 										are so beguiled and demoralized.</p>
 								</div>
 							</div> <!-- /.img -->
@@ -914,7 +999,9 @@
 								<div class="opacity tran4s">
 									<h4>Holly Vincenzini</h4>
 									<span>Media Partner</span>
-									<p>On the other hand, We denounce ut with righteo indignation and dislike men who
+									<p>On the other hand, We denounce ut with righteo indignation and
+										dislike
+										men who
 										are so beguiled and demoralized.</p>
 								</div>
 							</div> <!-- /.img -->
@@ -942,7 +1029,9 @@
 								<div class="opacity tran4s">
 									<h4>Ramirez Minita</h4>
 									<span>Graphic Design</span>
-									<p>On the other hand, We denounce ut with righteo indignation and dislike men who
+									<p>On the other hand, We denounce ut with righteo indignation and
+										dislike
+										men who
 										are so beguiled and demoralized.</p>
 								</div>
 							</div> <!-- /.img -->
@@ -972,59 +1061,61 @@
 				Pricing Section
 			=====================================================
 			-->
-		<div id="pricing-section">
-			<div class="container">
-				<div class="clear-fix">
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-						<div class="single-price-table hvr-float-shadow">
-							<h4>Basic</h4>
-							<p>The best to start</p>
-							<strong class="color1">$9.99 <span>/monthly</span></strong>
-							<ul>
-								<li>3,600 Keywords</li>
-								<li>50 Social Accounts</li>
-								<li>25 Analytics Campaigns</li>
-								<li>45 Email Accounts</li>
-								<li>24/7 Support</li>
-							</ul>
-							<a href="#" class="tran3s p-color-bg">BUY IT NOW</a>
-						</div> <!-- /.single-price-table -->
-					</div> <!-- /.col -->
+		<div id="inscricoes">
+			<div>
+				<div class="container">
+					<div class="clear-fix">
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+							<div class="single-price-table hvr-float-shadow">
+								<h4>Basic</h4>
+								<p>The best to start</p>
+								<strong class="color1">$9.99 <span>/monthly</span></strong>
+								<ul>
+									<li>3,600 Keywords</li>
+									<li>50 Social Accounts</li>
+									<li>25 Analytics Campaigns</li>
+									<li>45 Email Accounts</li>
+									<li>24/7 Support</li>
+								</ul>
+								<a href="#" class="tran3s p-color-bg">BUY IT NOW</a>
+							</div> <!-- /.single-price-table -->
+						</div> <!-- /.col -->
 
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-						<div class="single-price-table hvr-float-shadow">
-							<h4>Advanced</h4>
-							<p>The best to start</p>
-							<strong class="color2">$39.99 <span>/monthly</span></strong>
-							<ul>
-								<li>3,600 Keywords</li>
-								<li>50 Social Accounts</li>
-								<li>25 Analytics Campaigns</li>
-								<li>45 Email Accounts</li>
-								<li>24/7 Support</li>
-							</ul>
-							<a href="#" class="tran3s p-color-bg">BUY IT NOW</a>
-						</div> <!-- /.single-price-table -->
-					</div> <!-- /.col -->
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+							<div class="single-price-table hvr-float-shadow">
+								<h4>Advanced</h4>
+								<p>The best to start</p>
+								<strong class="color2">$39.99 <span>/monthly</span></strong>
+								<ul>
+									<li>3,600 Keywords</li>
+									<li>50 Social Accounts</li>
+									<li>25 Analytics Campaigns</li>
+									<li>45 Email Accounts</li>
+									<li>24/7 Support</li>
+								</ul>
+								<a href="#" class="tran3s p-color-bg">BUY IT NOW</a>
+							</div> <!-- /.single-price-table -->
+						</div> <!-- /.col -->
 
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-						<div class="single-price-table hvr-float-shadow">
-							<h4>PREMIUM</h4>
-							<p>The best to start</p>
-							<strong class="color3">$59.99 <span>/monthly</span></strong>
-							<ul>
-								<li>3,600 Keywords</li>
-								<li>50 Social Accounts</li>
-								<li>25 Analytics Campaigns</li>
-								<li>45 Email Accounts</li>
-								<li>24/7 Support</li>
-							</ul>
-							<a href="#" class="tran3s p-color-bg">BUY IT NOW</a>
-						</div> <!-- /.single-price-table -->
-					</div> <!-- /.col -->
-				</div>
-			</div> <!-- /.container -->
-		</div> <!-- /#pricing-section -->
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+							<div class="single-price-table hvr-float-shadow">
+								<h4>PREMIUM</h4>
+								<p>The best to start</p>
+								<strong class="color3">$59.99 <span>/monthly</span></strong>
+								<ul>
+									<li>3,600 Keywords</li>
+									<li>50 Social Accounts</li>
+									<li>25 Analytics Campaigns</li>
+									<li>45 Email Accounts</li>
+									<li>24/7 Support</li>
+								</ul>
+								<a href="#" class="tran3s p-color-bg">BUY IT NOW</a>
+							</div> <!-- /.single-price-table -->
+						</div> <!-- /.col -->
+					</div>
+				</div> <!-- /.container -->
+			</div> <!-- /#pricing-section -->
+		</div>
 
 		<!--
 			=====================================================
@@ -1037,11 +1128,22 @@
 					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 						<div class="left-side">
 							<h2>Contact Info</h2>
-							<p>There are many variations of passages of Lorem Ipsum available, but the majori have
-								suffered alteration in some form, by injected humour, or randomised words which don't
-								look even slightly believable. If you are going to use a pas of Lorem Ipsum, you need to
-								be sure there isn't anything embarrassing hidden in the middle of text. <br><br>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ididunt
+							<p>There are many variations of passages of Lorem Ipsum available, but the
+								majori
+								have
+								suffered alteration in some form, by injected humour, or randomised
+								words
+								which
+								don't
+								look even slightly believable. If you are going to use a pas of Lorem
+								Ipsum,
+								you
+								need to
+								be sure there isn't anything embarrassing hidden in the middle of text.
+								<br><br>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+								tempor
+								ididunt
 								ut labore et dolore magna aliqua.</p>
 
 							<ul>
@@ -1133,7 +1235,6 @@
 		</div> <!-- /#contact-section -->
 
 
-
 		<!--
 			=====================================================
 				Footer
@@ -1156,10 +1257,12 @@
 					<li><a href="#" class="tran3s round-border"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
 					<li><a href="#" class="tran3s round-border"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
 					</li>
-					<li><a href="#" class="tran3s round-border"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+					<li><a href="#" class="tran3s round-border"><i class="fa fa-rss" aria-hidden="true"></i></a>
+					</li>
 				</ul>
 				<p>Copyright @2018 All rights reserved | This template is made with <i class="fa fa-heart-o"
-						aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+						aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+				</p>
 			</div>
 		</footer>
 
@@ -1229,7 +1332,7 @@
 		<script type="text/javascript" src="js/map-script.js"></script>
 		<!--Navbar Active Link Auto Code-->
 		<script type="text/javascript" src="js/navbar_activelink.js"></script>
-
+		
 	</div> <!-- /.main-page-wrapper -->
 </body>
 
