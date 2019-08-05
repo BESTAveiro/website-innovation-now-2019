@@ -317,7 +317,9 @@ body{
   border:none;
   margin: 0;
 }
-
+.navbar-brand:hover{
+  color: whitesmoke;
+}
 .theme-main-menu.navbar .nav>li ul.sub-menu {
   position: absolute;
   background: #1e1e1e;
@@ -474,7 +476,7 @@ td{
   border-radius: 18px;
   background-color: #439B35;
   height: 130%;
-  width: 70%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   font-weight: bolder;
@@ -660,7 +662,7 @@ td{
           transform: translate3D(0,-100px,0);
 }
 #oradores .project-gallery .single-img .opacity ul, #embaixadores .project-gallery .single-img .opacity ul {
-  -webkit-transform: translate3D(0,100px,0);
+  -webkit-transform: translate3D(0,100px,0) ;
      -moz-transform: translate3D(0,100px,0);
       -ms-transform: translate3D(0,100px,0);
        -o-transform: translate3D(0,100px,0);
@@ -772,7 +774,7 @@ td{
   left:0;
   right: 0;
   bottom: 0;
-  background: rgba(230,230,230,0.9);
+  background: rgba(24,64,34,0.9);
   padding: 55px 0 20px 0;
   opacity: 0;
   -webkit-transform: scale(1,0);
@@ -786,7 +788,7 @@ td{
 }
 #contactos .team-member-wrapper .single-team-member .img .opacity h4,
 contactos .team-member-wrapper .single-team-member .img .opacity span {
-  color:#696f78;
+  color:#ffffff;
   text-transform: capitalize;
 }
 #contactos .team-member-wrapper .single-team-member .img .opacity h4 {
@@ -802,7 +804,7 @@ contactos .team-member-wrapper .single-team-member .img .opacity span {
   margin: 22px 0 15px 0;
 }
 #contactos .team-member-wrapper .single-team-member .img .opacity p {
-  color: #373a3f;
+  color: #ffffff;
   padding: 0 40px;
 }
 #contactos .team-member-wrapper .single-team-member .img .opacity h4,
@@ -826,18 +828,18 @@ contactos .team-member-wrapper .single-team-member .img .opacity span {
   opacity: 1;
 }
 #contactos .team-member-wrapper .single-team-member .member-name {
-  background: #e6e6e6;
+  background: #273E1F;
   overflow: hidden;
   position: relative;
   min-height: 70px;
 }
 #contactos .team-member-wrapper .single-team-member .member-name h6 {
   text-transform: capitalize;
-  color:#696f78;
+  color:#ffffff;
   margin-top: 12px;
 }
 #contactos .team-member-wrapper .single-team-member .member-name p {
-  color:#373a3f;
+  color:#ffffff;
   margin: 5px 0 8px 0;
 }
 #contactos .team-member-wrapper .single-team-member:hover .member-name h6,
@@ -862,13 +864,13 @@ contactos .team-member-wrapper .single-team-member .img .opacity span {
 }
 #contactos .team-member-wrapper .single-team-member .member-name ul li:nth-child(1) a,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(2) a {
-  color: #677fb5;
-  border-color:#677fb5;
+  color: #ffffff;
+  border-color:#ffffff;
 }
 #contactos .team-member-wrapper .single-team-member .member-name ul li:nth-child(2) a,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(3) a {
-  color: #70c2e9;
-  border-color:#70c2e9;
+  color: #ffffff;
+  border-color:#ffffff;
 }
 #contactos .team-member-wrapper .single-team-member .member-name ul li:nth-child(3) a,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(4) a {
@@ -877,16 +879,16 @@ contactos .team-member-wrapper .single-team-member .img .opacity span {
 }
 #contactos .team-member-wrapper .single-team-member .member-name ul li:nth-child(4) a,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(5) a {
-  color: #007ab9;
-  border-color:#007ab9;
+  color: #ffffff;
+  border-color:#ffffff;
 }
 #contactos .team-member-wrapper .single-team-member .member-name ul li:nth-child(1) a:hover,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(2) a:hover {
-  background: #677fb5;
+  background: #ffffff;
 }
 #contactos .team-member-wrapper .single-team-member .member-name ul li:nth-child(2) a:hover,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(3) a:hover {
-  background: #70c2e9;
+  background: #ffffff;
 }
 #contactos .team-member-wrapper .single-team-member .member-name ul li:nth-child(3) a:hover,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(4) a:hover {
@@ -894,7 +896,7 @@ contactos .team-member-wrapper .single-team-member .img .opacity span {
 }
 #contactos .team-member-wrapper .single-team-member .member-name ul li:nth-child(4) a:hover,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(5) a:hover {
-  background: #007ab9;
+  background: #ffffff;
 }
 #contactos .team-member-wrapper .single-team-member .member-name ul li a:hover {
   color:#fff !important;
@@ -1043,14 +1045,9 @@ contactos .team-member-wrapper .single-team-member .img .opacity span {
   vertical-align: middle;
 }
 #inscricoes .single-price-table strong.color1 {
-  background: #d6973d;
+  background: #B4D491;
 }
-#inscricoes .single-price-table strong.color2 {
-  background: #375099;
-}
-#inscricoes .single-price-table strong.color3 {
-  background: #179680;
-}
+
 #inscricoes .single-price-table ul li {
   line-height: 45px;
 }
@@ -1243,60 +1240,42 @@ footer ul li a {
   border:1px solid transparent;
 }
 footer ul li:nth-child(1) a {
-  color: #677fb5;
-  border-color:#677fb5;
+  color: #faaa5e;
+  border-color:#faaa5e;
 }
 footer ul li:nth-child(2) a {
-  color: #70c2e9;
-  border-color:#70c2e9;
+  color: #007ab9;
+  border-color:#007ab9;
 }
 footer ul li:nth-child(3) a {
   color: #d8545d;
   border-color:#d8545d;
 }
 footer ul li:nth-child(4) a {
-  color: #007ab9;
-  border-color:#007ab9;
-}
-footer ul li:nth-child(5) a {
-  color: #5ecbf3;
-  border-color:#5ecbf3;
-}
-footer ul li:nth-child(6) a {
-  color: #ff3ba4;
-  border-color:#ff3ba4;
-}
-footer ul li:nth-child(7) a {
   color: #e299c2;
   border-color:#e299c2;
 }
-footer ul li:nth-child(8) a {
-  color: #faaa5e;
-  border-color:#faaa5e;
+footer ul li:nth-child(5) a {
+  color: #677fb5;
+  border-color:#677fb5;
 }
+
 footer ul li:nth-child(1) a:hover {
-  background: #677fb5;
+  background: #faaa5e;
 }
 footer ul li:nth-child(2) a:hover {
-  background: #70c2e9;
+  background: #007ab9;
 }
 footer ul li:nth-child(3) a:hover {
   background: #d8545d;
 }
 footer ul li:nth-child(4) a:hover {
-  background: #007ab9;
-}
-footer ul li:nth-child(5) a:hover {
-  background: #5ecbf3;
-}
-footer ul li:nth-child(6) a:hover {
-  background: #ff3ba4;
-}
-footer ul li:nth-child(7) a:hover {
   background: #e299c2;
 }
-footer ul li:nth-child(8) a:hover {
-  background: #faaa5e;
+footer ul li:nth-child(5) a:hover {
+  background: #677fb5;
+}
+
 }
 footer ul li a:hover {
   color:#fff !important;

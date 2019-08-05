@@ -86,3 +86,9 @@
 .speakersname{
     cursor: pointer;
 }
+
+/*                                      CONTACTOS*/
+
+.bestdescription{
+    margin-top: 10px !important;
+}
