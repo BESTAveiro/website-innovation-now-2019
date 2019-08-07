@@ -317,6 +317,7 @@ body{
   border:none;
   margin: 0;
 }
+
 .navbar-brand:hover{
   color: whitesmoke;
 }
@@ -399,7 +400,7 @@ body{
   top:0;
   left:0;
   z-index: 9999;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.9);
   margin:0;
   animation-name: menu_sticky;
   animation-duration: 0.70s;
@@ -464,6 +465,10 @@ body{
   text-align: center !important;
 }
 
+.table-curved:hover{
+  overflow: hidden;
+}
+
 th{
   text-align: center;
 }
@@ -474,7 +479,7 @@ td{
 
 .inscricao-horario{
   border-radius: 18px;
-  background-color: #439B35;
+  background-color: #121212;
   height: 130%;
   width: 50%;
   margin-left: auto;
