@@ -44,9 +44,9 @@
 		<header class="theme-main-header">
 			<div class="container">
 
-				
+
 				<a class="navbar-brand" href="index.html" style="cursor: default">INNOVATION NOW! 2019</a>
-				
+
 				<!-- ========================= Theme Feature Page Menu ======================= -->
 				<nav class="navbar theme-main-menu one-page-menu" role="navigation">
 					<!-- Brand and toggle get grouped for better mobile display -->
@@ -157,57 +157,242 @@
 						<tr>
 							<th scope="col">Hora</th>
 							<th scope="col">Sessão</th>
-							<th scope="col">Inscrições</th>
 						</tr>
 					</thead>
 					<tbody>
-						<tr>
+						<tr data-toggle="modal" data-id="data1" data-target="#modal1">
 							<td>8:15</td>
 							<td>Check In</td>
-							<td><button class="inscricao-horario">Inscrever-me</button></td>
 						</tr>
-						<tr>
+						<tr data-toggle="modal" data-id="data2" data-target="#modal2">
 							<td>9:30</td>
-							<td>Opening Session</td>
-							<td><button class="inscricao-horario">Inscrever-me</button></td>
+							<td>Sessão de Abertura</td>
 						</tr>
-						<tr>
+						<tr data-toggle="modal" data-id="data3" data-target="#modal3">
 							<td>10:30</td>
 							<td>Coffee Break</td>
-							<td><button class="inscricao-horario">Inscrever-me</button></td>
 						</tr>
-						<tr>
+						<tr data-toggle="modal" data-id="data4" data-target="#modal4">
 							<td>11:00</td>
-							<td>Speeches</td>
-							<td><button class="inscricao-horario">Inscrever-me</button></td>
+							<td>Palestra</td>
 						</tr>
-						<tr>
+						<tr data-toggle="modal" data-id="data5" data-target="#modal5">
 							<td>12:30</td>
-							<td>Lunch</td>
-							<td><button class="inscricao-horario">Inscrever-me</button></td>
+							<td>Almoço</td>
 						</tr>
-						<tr>
+						<tr data-toggle="modal" data-id="data6" data-target="#modal6">
 							<td>14:00</td>
 							<td>Showroom</td>
-							<td><button class="inscricao-horario">Inscrever-me</button></td>
 						</tr>
-						<tr>
+						<tr data-toggle="modal" data-id="data7" data-target="#modal7">
 							<td>16:00</td>
 							<td>Coffee Break</td>
-							<td><button class="inscricao-horario">Inscrever-me</button></td>
 						</tr>
-						<tr>
+						<tr data-toggle="modal" data-id="data8" data-target="#modal8">
 							<td>16:30</td>
 							<td>Showroom</td>
-							<td><button class="inscricao-horario">Inscrever-me</button></td>
 						</tr>
-						<tr>
+						<tr data-toggle="modal" data-id="data9" data-target="#modal9">
 							<td>18:30</td>
 							<td>Cocktail Network</td>
-							<td><button class="inscricao-horario">Inscrever-me</button></td>
 						</tr>
 					</tbody>
 				</table>
+				<!--MODALS-->
+
+				<!-- Modal 1-->
+				<div class="modal fade" id="modal1" tabindex="-1" role="dialog"
+					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h6 class="modal-title" id="exampleModalLongTitle">Check In</h6>
+
+								<button type="modal-button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body">
+								<p>Isto são alguns detalhes para o check In! Tragam boa disposição e não se atrasem!</p>
+								<br />
+								<a class="inscricao-horario">Inscrever-me</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--Modal 2-->
+				<div class="modal fade" id="modal2" tabindex="-1" role="dialog"
+					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h6 class="modal-title" id="exampleModalLongTitle">Sessão de Abertura</h6>
+
+								<button type="modal-button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body">
+								<p>A Sessão de Abertura consiste em .......</p>
+								<br />
+								<a class="inscricao-horario">Inscrever-me</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--Modal 3-->
+				<div class="modal fade" id="modal3" tabindex="-1" role="dialog"
+					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h6 class="modal-title" id="exampleModalLongTitle">Coffee Break</h6>
+
+								<button type="modal-button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body">
+								<p>Aqui poderás descansar e comer algo.</p>
+								<br />
+								<a class="disabled">Inscrever-me</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Modal 4-->
+				<div class="modal fade" id="modal4" tabindex="-1" role="dialog"
+					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h6 class="modal-title" id="exampleModalLongTitle">Palestra</h6>
+
+								<button type="modal-button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body">
+								<p>Esta palestra será dada por... e focará os pontos de.... </p>
+								<br />
+								<a class="inscricao-horario">Inscrever-me</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Modal 5-->
+				<div class="modal fade" id="modal5" tabindex="-1" role="dialog"
+					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h6 class="modal-title" id="exampleModalLongTitle">Almoço</h6>
+
+								<button type="modal-button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body">
+								<p>Pausa para almoço.</p>
+								<br />
+								<a class="disabled">Inscrever-me</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Modal 6-->
+				<div class="modal fade" id="modal6" tabindex="-1" role="dialog"
+					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h6 class="modal-title" id="exampleModalLongTitle">Showroom</h6>
+
+								<button type="modal-button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body">
+								<p>Informação relativa ao showroom.</p>
+								<br />
+								<a class="inscricao-horario">Inscrever-me</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Modal 7-->
+				<div class="modal fade" id="modal7" tabindex="-1" role="dialog"
+					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h6 class="modal-title" id="exampleModalLongTitle">Coffee Break</h6>
+
+								<button type="modal-button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body">
+								<p>Aqui poderás descansar e comer algo.</p>
+								<br />
+								<a class="inscricao-horario disabled">Inscrever-me</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Modal 8-->
+				<div class="modal fade" id="modal8" tabindex="-1" role="dialog"
+					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h6 class="modal-title" id="exampleModalLongTitle">Showroom</h6>
+
+								<button type="modal-button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body">
+								<p>Informação relativa ao showroom.</p>
+								<br />
+								<a class="inscricao-horario">Inscrever-me</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Modal 9-->
+				<div class="modal fade" id="modal9" tabindex="-1" role="dialog"
+					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h6 class="modal-title" id="exampleModalLongTitle">Cocktail Network</h6>
+
+								<button type="modal-button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body">
+								<p>Nesta sessão, poderás entrar em contacto com membros da empresa X e com o palestrante
+									P.</p>
+								<br />
+								<a class="inscricao-horario">Inscrever-me</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--/  modals-->
 				<br>
 				<br>
 				<h6>Dia 23 de outubro</h6>
@@ -217,52 +402,239 @@
 						<tr>
 							<th scope="col">Hora</th>
 							<th scope="col">Sessão</th>
-							<th scope="col">Inscrições</th>
 						</tr>
 					</thead>
 					<tbody>
-						<tr>
+						<tr data-toggle="modal" data-id="data9" data-target="#modal10">
 							<td>9:30</td>
-							<td>Discussion Groups</td>
-							<td><button class="inscricao-horario">Inscrever-me</button></td>
+							<td>Discussion Group</td>
 						</tr>
-						<tr>
+						<tr data-toggle="modal" data-id="data9" data-target="#modal11">
 							<td>10:45</td>
-							<td>Coffee-Break</td>
-							<td><button class="btn-outline inscricao-horario">Inscrever-me</button></td>
+							<td>Coffee Break</td>
 						</tr>
-						<tr>
+						<tr data-toggle="modal" data-id="data9" data-target="#modal12">
 							<td>11:00</td>
-							<td>Discussion Groups</td>
-							<td><button class="inscricao-horario">Inscrever-me</button></td>
+							<td>Discussion Group</td>
 						</tr>
-						<tr>
+						<tr data-toggle="modal" data-id="data9" data-target="#modal13">
 							<td>12:30</td>
-							<td>Lunch</td>
-							<td><button class="inscricao-horario">Inscrever-me</button></td>
+							<td>Almoço</td>
 						</tr>
-						<tr>
+						<tr data-toggle="modal" data-id="data9" data-target="#modal14">
 							<td>14:00</td>
-							<td>Speeches</td>
-							<td><button class="inscricao-horario">Inscrever-me</button></td>
+							<td>Palestra</td>
 						</tr>
-						<tr>
+						<tr data-toggle="modal" data-id="data9" data-target="#modal15">
 							<td>16:00</td>
-							<td>Coffee-Break</td>
-							<td><button class="inscricao-horario">Inscrever-me</button></td>
+							<td>Coffee Break</td>
 						</tr>
-						<tr>
+						<tr data-toggle="modal" data-id="data9" data-target="#modal16">
 							<td>16:30</td>
 							<td>Round Table</td>
-							<td><button class="inscricao-horario">Inscrever-me</button></td>
 						</tr>
-						<tr>
+						<tr data-toggle="modal" data-id="data9" data-target="#modal17">
 							<td>18:00</td>
-							<td>Closing Session</td>
-							<td><button class="inscricao-horario">Inscrever-me</button></td>
+							<td>Sessão de Encerramento</td>
 						</tr>
 					</tbody>
 				</table>
+
+				<!--MODALS-->
+
+				<!-- Modal 10-->
+				<div class="modal fade" id="modal10" tabindex="-1" role="dialog"
+					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h6 class="modal-title" id="exampleModalLongTitle">Discussion Group</h6>
+
+								<button type="modal-button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body">
+								<p>Esta sessão será focada em....</p>
+								<br />
+								<a class="inscricao-horario">Inscrever-me</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--Modal 11-->
+				<div class="modal fade" id="modal11" tabindex="-1" role="dialog"
+					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h6 class="modal-title" id="exampleModalLongTitle">Coffee Break</h6>
+
+								<button type="modal-button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body">
+								<p>Aqui poderás descansar e comer algo.</p>
+								<br />
+								<a class="disabled">Inscrever-me</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--Modal 12-->
+				<div class="modal fade" id="modal12" tabindex="-1" role="dialog"
+					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h6 class="modal-title" id="exampleModalLongTitle">Discussion Group</h6>
+
+								<button type="modal-button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body">
+								<p>Esta sessão será focada em....</p>
+								<br />
+								<a class="inscricao-horario">Inscrever-me</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Modal 13-->
+				<div class="modal fade" id="modal13" tabindex="-1" role="dialog"
+					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h6 class="modal-title" id="exampleModalLongTitle">Almoço</h6>
+
+								<button type="modal-button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body">
+								<p>Pausa para almoço. </p>
+								<br />
+								<a class="disabled">Inscrever-me</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Modal 14-->
+				<div class="modal fade" id="modal14" tabindex="-1" role="dialog"
+					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h6 class="modal-title" id="exampleModalLongTitle">Palestra</h6>
+
+								<button type="modal-button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body">
+								<p>A palestra será dada por.... e será acerca de tal e tal.</p>
+								<br />
+								<a class="inscricao-horario">Inscrever-me</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Modal 15-->
+				<div class="modal fade" id="modal15" tabindex="-1" role="dialog"
+					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h6 class="modal-title" id="exampleModalLongTitle">Coffee Break</h6>
+
+								<button type="modal-button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body">
+								<p>Aqui poderás descansar e comer algo.</p>
+								<br />
+								<a class="disabled">Inscrever-me</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Modal 16-->
+				<div class="modal fade" id="modal16" tabindex="-1" role="dialog"
+					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h6 class="modal-title" id="exampleModalLongTitle">Round Table</h6>
+
+								<button type="modal-button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body">
+								<p>Nesta round table....</p>
+								<br />
+								<a class="inscricao-horario">Inscrever-me</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Modal 17-->
+				<div class="modal fade" id="modal17" tabindex="-1" role="dialog"
+					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h6 class="modal-title" id="exampleModalLongTitle">Sessão de Encerramento</h6>
+
+								<button type="modal-button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body">
+								<p>Informação relativa à sessão de encerramento</p>
+								<br />
+								<a class="inscricao-horario">Inscrever-me</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Modal 9-->
+				<div class="modal fade" id="modal9" tabindex="-1" role="dialog"
+					aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h6 class="modal-title" id="exampleModalLongTitle">Cocktail Network</h6>
+
+								<button type="modal-button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+
+							<div class="modal-body">
+								<p>Nesta sessão, poderás entrar em contacto com membros da empresa X e com o palestrante
+									P.</p>
+								<br />
+								<button class="inscricao-horario">Inscrever-me</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--/modals-->
 			</div>
 		</section>
 
@@ -285,16 +657,15 @@
 								<div class="icon tran3s"><img class=" iconactive"
 										src="images/activities/speeches.png" />
 								</div>
-								<h6 class="tran3s">Speeches</a></h6>
+								<h6 class="tran3s">Palestras</a></h6>
 							</div>
-							<p class="activity-description">The main activity of the event. It will feature people who are connected
-								to
-								innovation,
-								entrepreneurship or
-								research who will have the opportunity to share their motivation, ideas,
-								histories and
-								essentially their passion
-								about these themes.</p>
+							<p class="activity-description">Esta é a principal atividade do evento.
+								Contará com a presença de oradores ligados à inovação, empreendedorismo e pesquisa,
+								que terão aqui a oportunidade de partilhar as suas motivações, ideias, histórias e,
+								essencialmente, a sua paixão por este assunto.
+								<br/>
+								<br/>
+							</p>
 						</div> <!-- /.single-service-content -->
 					</div> <!-- /.col-lg -->
 
@@ -306,13 +677,13 @@
 								</div>
 								<h6 class="tran3s">Round Tables</h6>
 							</div>
-							<p class="activity-description">The concept of Round Table consists of a space for discussion between
-								company
-								representatives, students and
-								entities from the university with the purpose of bringing together our
-								three
-								stakeholders and discussing a
-								certain topic related to scientific and technological innovation . </p>
+							<p class="activity-description"> O conceito de Round Table consiste num espaço para que
+								ocorram discussões entre
+								representantes de empresas, estudantes e entidades da universidade. Esta atividade tem
+								como objetivo aproximar
+								estas três partes, e fomentar a discussão acerca de um tópico ligado à inovação
+								científica e tecnológica.
+							</p>
 						</div> <!-- /.single-service-content -->
 					</div> <!-- /.col-lg -->
 
@@ -323,13 +694,10 @@
 										src="images/activities/pitch.png" /></div>
 								<h6 class="tran3s">Pitch Contest</h6>
 							</div>
-							<p class="activity-description">This session consists of a competition where participants will have to
-								develop a
-								brief
-								presentation about an idea,
-								solving a challenge. The main purpose of the session is to challenge
-								participants and
-								their pitching skills.
+							<p class="activity-description">Esta sessão consiste numa competição onde os participantes
+								apresentarão brevemente uma ideia que para resolver um determinado problema. O objetivo
+								desta sessão é desafiar os participantes e as suas capacidades de comunicação.
+								<br />
 								<br />
 								<br />
 							</p>
@@ -344,11 +712,12 @@
 										src="images/activities/discussiongroups.png" /></div>
 								<h6 class="tran3s">Discussion Groups</a></h6>
 							</div>
-							<p class="activity-description">In this session, the participants will have the chance to discuss some
-								themes
-								related to
-								innovation and how some
-								companies had success in the last years by innovating
+							<p class="activity-description">
+								Nesta sessão, os participantes poderão discutir alguns temas
+								relacionados com a inovação e como esta permitiu a algumas empresas sucederam nos
+								últimos anos.
+								<br />
+								<br />
 								<br />
 								<br />
 							</p>
@@ -363,12 +732,13 @@
 								</div>
 								<h6 class="tran3s">Showroom</h6>
 							</div>
-							<p class="activity-description">This session consists of a space open to all the academic community where
-								the
-								company can
-								demonstrate an innovative product or service. Within this session, the
-								company
-								will present itself.</p>
+							<p class="activity-description">Este espaço aberto a toda a comunidade académica permite à
+								empresa demonstrar um produto ou serviço inovador, bem como dar-se a conhecer.
+								<br />
+								<br />
+								<br />
+								<br />
+							</p>
 						</div> <!-- /.single-service-content -->
 					</div> <!-- /.col-lg -->
 
@@ -379,13 +749,12 @@
 								</div>
 								<h6 class="tran3s">Cocktail Network</h6>
 							</div>
-							<p class="activity-description">After the showroom, a cocktail network will happen, where partners,
-								companies
-								and
-								speakers can be present, giving the opportunity for participants to
-								communicate
-								with
-								everyone, in a more informal way.</p>
+							<p class="activity-description">Após o Showroom, o cocktail network permitirá a empresas,
+								parceiros e oradores interagirem com os participantes num ambiente mais informal.
+								<br />
+								<br />
+								<br/>
+							</p>
 						</div> <!-- /.single-service-content -->
 					</div> <!-- /.col-lg -->
 				</div> <!-- /.row -->
@@ -422,7 +791,9 @@
 											</p>
 
 											<ul class="social-link">
-												<li><a href="https://www.linkedin.com/company/best-aveiro" target="_blank" class="tran3s round-border"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+												<li><a href="https://www.linkedin.com/company/best-aveiro"
+														target="_blank" class="tran3s round-border"><i
+															class="fa fa-linkedin" aria-hidden="true"></i></a>
 											</ul>
 										</div>
 									</div>
@@ -441,7 +812,9 @@
 											<h6 class="speakersname"><a>Rui Aguiar</a></h6>
 											<p>Professor da Universidade de Aveiro</p>
 											<ul class="social-link">
-												<li><a href="https://www.linkedin.com/company/best-aveiro" target="_blank" class="tran3s round-border"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+												<li><a href="https://www.linkedin.com/company/best-aveiro"
+														target="_blank" class="tran3s round-border"><i
+															class="fa fa-linkedin" aria-hidden="true"></i></a>
 											</ul>
 										</div>
 									</div>
@@ -460,7 +833,9 @@
 											<h6 class="speakersname"><a>Pedro Madureira</a></h6>
 											<p>CSO Immunethep</p>
 											<ul class="social-link">
-												<li><a href="https://www.linkedin.com/company/best-aveiro" target="_blank" class="tran3s round-border"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+												<li><a href="https://www.linkedin.com/company/best-aveiro"
+														target="_blank" class="tran3s round-border"><i
+															class="fa fa-linkedin" aria-hidden="true"></i></a>
 											</ul>
 										</div>
 									</div>
@@ -479,7 +854,9 @@
 											<h6 class="speakersname"><a>Hugo Silva</a></h6>
 											<p>CEO Plux</p>
 											<ul class="social-link">
-												<li><a href="https://www.linkedin.com/company/best-aveiro" target="_blank" class="tran3s round-border"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+												<li><a href="https://www.linkedin.com/company/best-aveiro"
+														target="_blank" class="tran3s round-border"><i
+															class="fa fa-linkedin" aria-hidden="true"></i></a>
 											</ul>
 										</div>
 									</div>
@@ -498,7 +875,9 @@
 											<h6 class="speakersname"><a>Bruno Figueiredo</a></h6>
 											<p>CSO Graphenest</p>
 											<ul class="social-link">
-												<li><a href="https://www.linkedin.com/company/best-aveiro" target="_blank" class="tran3s round-border"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+												<li><a href="https://www.linkedin.com/company/best-aveiro"
+														target="_blank" class="tran3s round-border"><i
+															class="fa fa-linkedin" aria-hidden="true"></i></a>
 											</ul>
 										</div>
 									</div>
@@ -687,7 +1066,9 @@
 										<h6 class="speakersname">
 											<a>David Carvalhão</a>
 											<ul class="social-link">
-												<li><a href="https://www.linkedin.com/company/best-aveiro" target="_blank" class="tran3s round-border"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+												<li><a href="https://www.linkedin.com/company/best-aveiro"
+														target="_blank" class="tran3s round-border"><i
+															class="fa fa-linkedin" aria-hidden="true"></i></a>
 											</ul>
 										</h6>
 									</div>
@@ -773,20 +1154,21 @@
 				<h2>A Organização</h2>
 				<br />
 				<br />
-				
+
 				<h6> BEST Aveiro</h6>
 
-				<img src="images\home\best_logo.jpg" alt="BEST logo" style="margin-left: 5%"/>
+				<img src="images\home\best_logo.jpg" alt="BEST logo" style="margin-left: 5%" />
 
 				<div>
-					
+
 					<p class="bestdescription">
 						BEST Aveiro is one of the 94 local groups of the Board of European Students of Technology (BEST)
 						and
 						one of the most active organisations in the University of Aveiro.
 					</p>
-	
-					<p class="bestdescription">The main goal of BEST is to develop students of technology, bringing closer
+
+					<p class="bestdescription">The main goal of BEST is to develop students of technology, bringing
+						closer
 						our three
 						stakeholders: students,
 						universities and partners, therefore providing three main services: complementary education,
@@ -804,9 +1186,9 @@
 					</p>
 				</div>
 
-				
+
 			</div> <!-- /.theme-title -->
-	
+
 
 			<h6 style="text-align: center; margin-top: 6%">A Equipa do Innovation Now! 2019</h6>
 
@@ -1057,14 +1439,19 @@
 	<footer>
 		<div class="container">
 			<ul>
-				<li><a href="http://bestaveiro.web.ua.pt/" target="_blanket" class="tran3s round-border"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
-				<li><a href="https://www.facebook.com/BESTaveiro/" target="_blank" class="tran3s round-border"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<li><a href="http://bestaveiro.web.ua.pt/" target="_blanket" class="tran3s round-border"><i
+							class="fa fa-globe" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.facebook.com/BESTaveiro/" target="_blank" class="tran3s round-border"><i
+							class="fa fa-facebook" aria-hidden="true"></i></a>
 				</li>
-				<li><a href="https://www.youtube.com/user/BESTAveir0" target="_blank" class="tran3s round-border"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+				<li><a href="https://www.youtube.com/user/BESTAveir0" target="_blank" class="tran3s round-border"><i
+							class="fa fa-youtube" aria-hidden="true"></i></a>
 				</li>
-				<li><a href="https://www.instagram.com/best.aveiro/" target="_blank" class="tran3s round-border"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				<li><a href="https://www.instagram.com/best.aveiro/" target="_blank" class="tran3s round-border"><i
+							class="fa fa-instagram" aria-hidden="true"></i></a>
 				</li>
-				<li><a href="https://www.linkedin.com/company/best-aveiro" target="_blank" class="tran3s round-border"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+				<li><a href="https://www.linkedin.com/company/best-aveiro" target="_blank"
+						class="tran3s round-border"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 				</li>
 
 			</ul>
@@ -1083,7 +1470,7 @@
 						Email:
 						aveiro-innov@best.eu.org
 					</span>
-					<br/>
+					<br />
 					<small> Powered by BEST Aveiro IT Team - The Bugs © 2017 </small>
 
 				</p>

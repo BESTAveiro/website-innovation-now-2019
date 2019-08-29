@@ -62,6 +62,11 @@
 /*-------title font-----*/
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 
+
+body{
+  background-color: #F2F2F2;
+}
+
 /*** 
 
 ====================================================================
@@ -456,9 +461,16 @@ body{
   text-align: center;
   overflow-x: scroll;
 }
+
+.table tr{
+  cursor: pointer;
+  width: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
 .table-curved{
   border-radius: 20px;
-   border-left:0px;
+  border-left:0px;
 }
 
  .table, .table > tr, .table > th{
@@ -483,18 +495,32 @@ td{
 }
 
 .inscricao-horario{
-  border-radius: 18px;
-  background-color: #121212;
-  height: 130%;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: bolder;
-  vertical-align: middle;
-  margin-top: -3px;
+  border-radius: 10px;
+  padding: 1%;
+  margin-right: 2px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  color: #000;
 }
 .inscricao-horario:hover{
-  background-color: #273E1F !important;
+  background-color: #BDBEBF !important;
+  color: #000000;
+  cursor: pointer;
+}
+
+.disabled{
+  cursor: text;
+  border-radius: 10px;
+  padding: 1%;
+  margin-right: 2px;
+  border: 1px solid #D9D9D9 !important;
+  background-color: #ffffff;
+  color: #595959;
+}
+
+.disabled:hover{
+  background-color: #ffffff !important;
+  color: #595959;
 }
 
 /*** 
