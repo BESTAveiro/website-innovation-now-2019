@@ -44,7 +44,7 @@
 @import url('../vendor/bootstrap/bootstrap.css');
 /*----font awesome -------*/
 @import url('../fonts/font-awesome/css/font-awesome.min.css');
-/*----revolution-slider---*/
+/*----olution-slider---*/
 @import url('../vendor/revolution/settings.css');
 @import url('../vendor/revolution/layers.css');
 @import url('../vendor/revolution/navigation.css');
@@ -96,7 +96,7 @@ body{
   bottom:0px;
   width: 6px;
   height: 5px;
-  background:#184022; 
+  background:#1B75BC; 
   position:absolute;
   animation: preloader_1 1.5s  infinite ease-in-out;
 }
@@ -119,10 +119,10 @@ left:44px;
 animation-delay: .8s;
 }
 @keyframes preloader_1 {
-    0% {height:5px;transform:translateY(0px);background:#184022;}
-    25% {height:30px;transform:translateY(15px);background:#184022;}
-    50% {height:5px;transform:translateY(0px);background:#184022;}
-    100% {height:5px;transform:translateY(0px);background:#184022;}
+    0% {height:5px;transform:translateY(0px);background:#1B75BC;}
+    25% {height:30px;transform:translateY(15px);background:#1B75BC;}
+    50% {height:5px;transform:translateY(0px);background:#1B75BC;}
+    100% {height:5px;transform:translateY(0px);background:#1B75BC;}
 }
 
 
@@ -177,7 +177,7 @@ body{
        url('../fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
  }
  body {
-  font-family: 'Geosans Light', sans-serif;
+  font-family: 'Bahnschrift', sans-serif;
   font-weight: normal;
   color:#BBBBBB;
   font-size: 14px;
@@ -275,14 +275,14 @@ body{
 .blog-details-post-wrapper .list-img-wrapper ul li a:hover,.blog-details-post-wrapper .post-comment form button:hover,
 .blog-details-post-wrapper .post-share-area .share li a:hover,.theme-main-menu.navbar .nav>li ul li a:hover,
 .blog-details-post-wrapper .post-share-area .share li a.active {
-  color: #439B35;
+  color: #46C8F5;
   font-weight: bolder;
 }
 .p-color-bg,.theme-title h2:before,#about-us .single-about-content:hover .icon,
 #skill-section .codeconSkillbar .skillBar,#our-client .owl-theme .owl-dots .owl-dot.active span,
 #our-client .owl-theme .owl-dots .owl-dot:hover span,
 .blog-details-post-wrapper .comment-area .single-comment .comment button:hover {
-  background: #273E1F !important;
+  background: #1B75BC !important;
 }
 .banner .project-button,#about-us .icon,#about-us .single-about-content a.more,
 #atividades .single-service-content:hover,#oradores .project-menu ul li.active,
@@ -428,6 +428,7 @@ body{
  ***/
 .rev_slider_wrapper {
   background: #000;
+  margin-right: -1%;
 }
 
 .tparrows {
@@ -503,8 +504,8 @@ td{
   color: #000;
 }
 .inscricao-horario:hover{
-  background-color: #BDBEBF !important;
-  color: #000000;
+  background-color: #27AAE1 !important;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -594,7 +595,7 @@ td{
 
 }
 .row .single-service-content:hover h6 {
-  color: rgb(95,162,59) !important;
+  color: rgb(70,200,245) !important;
   cursor: pointer;
   
 }
@@ -630,7 +631,7 @@ td{
   border:1px solid transparent;
 }
  .social-link a {
-  color: #677fb5;
+  color: #ffffff;
   border-color:#677fb5;
 }
  #oradores .project-menu ul, #embaixadores .project-menu ul {
@@ -668,7 +669,7 @@ td{
   left:0;
   right: 0;
   bottom: 0;
-  background: rgba(24,64,34,0.9);
+  background: rgba(27,117,188,0.9);
   opacity: 0;
   -webkit-transform: scale(0.2);
      -moz-transform: scale(0.2);
@@ -836,7 +837,7 @@ td{
   left:0;
   right: 0;
   bottom: 0;
-  background: rgba(24,64,34,0.9);
+  background: rgba(27,117,188,0.9);
   padding: 55px 0 20px 0;
   opacity: 0;
   -webkit-transform: scale(1,0);
@@ -890,7 +891,7 @@ contactos .team-member-wrapper .single-team-member .img .opacity span {
   opacity: 1;
 }
 #contactos .team-member-wrapper .single-team-member .member-name {
-  background: #273E1F;
+  background: #1B75BC;
   overflow: hidden;
   position: relative;
   min-height: 70px;
@@ -936,8 +937,8 @@ contactos .team-member-wrapper .single-team-member .img .opacity span {
 }
 #contactos .team-member-wrapper .single-team-member .member-name ul li:nth-child(3) a,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(4) a {
-  color: #184022;
-  border-color:#184022;
+  color: #1B75BC;
+  border-color:#1B75BC;
 }
 #contactos .team-member-wrapper .single-team-member .member-name ul li:nth-child(4) a,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(5) a {
@@ -954,7 +955,7 @@ contactos .team-member-wrapper .single-team-member .img .opacity span {
 }
 #contactos .team-member-wrapper .single-team-member .member-name ul li:nth-child(3) a:hover,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(4) a:hover {
-  background: #184022;
+  background: #1B75BC;
 }
 #contactos .team-member-wrapper .single-team-member .member-name ul li:nth-child(4) a:hover,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(5) a:hover {
@@ -1107,7 +1108,7 @@ contactos .team-member-wrapper .single-team-member .img .opacity span {
   vertical-align: middle;
 }
 #inscricoes .single-price-table strong.color1 {
-  background: #B4D491;
+  background: rgba(70, 201, 245, 0.76);
 }
 
 #inscricoes .single-price-table ul li {
@@ -1338,7 +1339,7 @@ footer ul li:nth-child(5) a:hover {
   background: #677fb5;
 }
 
-}
+
 footer ul li a:hover {
   color:#fff !important;
 }

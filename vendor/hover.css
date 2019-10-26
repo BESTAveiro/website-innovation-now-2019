@@ -12,7 +12,7 @@
   transition-property: color;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
-  background-color: #82BF45;
+  background-color: #46C8F5;
 }
 .hvr-bounce-to-right:before {
   content: "";
@@ -22,7 +22,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #184022;
+  background: #1B75BC;
   border-radius: 20px;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
