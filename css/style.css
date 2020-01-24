@@ -573,7 +573,6 @@ td{
        -o-transform: translate3D(0,200px,0);
           transform: translate3D(0,200px,0);
 }
-
 #atividades .single-service-content .icon-heading {
   position: absolute;
   width: 100%;
@@ -581,7 +580,6 @@ td{
   right: 0;
   top:120px;
 }
-
 #atividades .single-service-content .icon-heading .icon {
   font-size: 48px;
   color:#808489;
