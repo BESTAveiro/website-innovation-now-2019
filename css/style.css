@@ -41,24 +41,24 @@
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700');
 /*----bootstrap css ----- */
-@import url('../assets/vendor/bootstrap/bootstrap.css');
+@import url('../vendor/bootstrap/bootstrap.css');
 /*----font awesome -------*/
-@import url('../assets/fonts/font-awesome/css/font-awesome.min.css');
+@import url('../fonts/font-awesome/css/font-awesome.min.css');
 /*----olution-slider---*/
-@import url('../assets/vendor/revolution/settings.css');
-@import url('../assets/vendor/revolution/layers.css');
+@import url('../vendor/revolution/settings.css');
+@import url('../vendor/revolution/layers.css');
 @import url('../vendor/revolution/navigation.css');
 /*----owl-carousel css----*/
-@import url('../assets/vendor/owl-carousel/owl.carousel.css');
-@import url('../assets/vendor/owl-carousel/owl.theme.css');
+@import url('../vendor/owl-carousel/owl.carousel.css');
+@import url('../vendor/owl-carousel/owl.theme.css');
 /*-------- animated css ------*/
-@import url('../assets/vendor/WOW-master/css/libs/animate.css');
+@import url('../vendor/WOW-master/css/libs/animate.css');
 /*---- Progress bar css----*/
-@import url('../assets/vendor/skills-master/source/habilidades.css');
+@import url('../vendor/skills-master/source/habilidades.css');
 /*-------- hover css ------*/
-@import url('../assets/vendor/hover.css');
+@import url('../vendor/hover.css');
 /*----calendar css--------*/
-@import url('../assets/vendor/monthly-master/css/monthly.css');
+@import url('../vendor/monthly-master/css/monthly.css');
 /*-------title font-----*/
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 
@@ -170,11 +170,11 @@ body{
 
  @font-face {
   font-family: 'font-awesome';
-  src: url('../assets/fonts/font-awesome/fonts/fontawesome-webfont.ttf');
-  src: url('../assets/fonts/font-awesome/fonts/fontawesome-webfont.eot'), /* IE9 Compat Modes */
-       url('../assets/fonts/font-awesome/fonts/fontawesome-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../assets/fonts/font-awesome/fonts/fontawesome-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../assets/fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
+  src: url('../fonts/font-awesome/fonts/fontawesome-webfont.ttf');
+  src: url('../fonts/font-awesome/fonts/fontawesome-webfont.eot'), /* IE9 Compat Modes */
+       url('../fonts/font-awesome/fonts/fontawesome-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/font-awesome/fonts/fontawesome-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
  }
  body {
   font-family: 'Bahnschrift', sans-serif;
@@ -807,7 +807,7 @@ td{
 
  ***/
 .page-middle-banner {
-  background: url(../assets/images/home/1.jpg) no-repeat center;
+  background: url(../images/home/1.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   margin-top: 70px;
@@ -1337,7 +1337,7 @@ footer p {
 
  ***/
 .inner-page-banner {
-  background: url(../assets/images/inner-page/1.jpg) no-repeat center;
+  background: url(../images/inner-page/1.jpg) no-repeat center;
   background-size: cover;
   text-align: center;
   margin-bottom: 100px;
