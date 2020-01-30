@@ -10,18 +10,6 @@
 }
 
 /*                                                                      STARTING SCREEN*/
-#titulo2 {
-  display: none;
-}
-
-@media (max-width: 375px) {
-  #titulo2 {
-    display: initial;
-  }
-  #titulo1 {
-    display: none;
-  }
-}
 
 .nav-link:hover{
     font-weight: bolder;
@@ -510,52 +498,5 @@
 
 .speakersname{
   cursor: pointer;
-}
-
-
-/*                                      CONTACTOS*/
-
-.bestdescription{
-    margin-top: 10px !important;
-}
-
-/*                                      Altura Atividades*/
-
-.altura1 {
-  height: 690px;
-}
-
-.altura2 {
-  height: 707px;
-}
-
-@media (max-width: 1200px) {
-  .altura1 {
-    height: 681px;
-  }
-  .altura1 {
-    height: 881px;
-  }
-  
-}
-
-@media (max-width: 991px) {
-  .altura1 {
-    height: 759px;
-  }
-  .altura1 {
-    height: 993px;
-  }
-  
-}
-
-@media (max-width: 768px) {
-  .altura1 {
-    height: auto;
-  }
-  .altura2 {
-    height: auto;
-  }
-  
 }
 
