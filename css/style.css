@@ -303,7 +303,7 @@ body{
   z-index: 999;
   padding-top: 20px;
 }
-.theme-main-menu .navbar-nav > li > a {
+.theme-main-menu .navbar-nav>li>a {
   text-transform: uppercase;
   color:#fff;
   font-weight: 700;
