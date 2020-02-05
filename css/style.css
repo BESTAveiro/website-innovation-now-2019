@@ -656,6 +656,11 @@ td{
 ====================================================================
 
  ***/
+
+ .single-img{
+  max-width: 225px;
+ }
+
  .social-link li a {
   width: 45px;
   line-height: 45px;
@@ -686,7 +691,8 @@ td{
   padding-bottom: 10px;
 } 
 #oradores .project-gallery .grid-item, #embaixadores .project-gallery .grid-item {
-  width: 33.33333333333%;
+  margin-top: 3%;
+  width: 25%;
   padding: 0 15px;
   margin-bottom: 32px;
   float:left;
@@ -715,7 +721,7 @@ td{
   position: absolute;
   top:20px;
   left:20px;
-  right: 20px;
+  right: 10px;
   bottom: 20px;
   border: 1px solid #fff;
   text-align: center;
@@ -1096,7 +1102,7 @@ contactos .team-member-wrapper .single-team-member .img .opacity span {
   line-height: 45px;
 }
 #inscricoes .single-price-table ul li:nth-child(odd) {
-  background: #f7f8f4;
+  background: #cccccc;
 }
 #inscricoes .single-price-table a {
   width: 150px;
@@ -1111,6 +1117,9 @@ contactos .team-member-wrapper .single-team-member .img .opacity span {
   background: #fff;
 }
 
+.single-price-table li{
+  color: #666666;
+}
 /*** 
 
 ====================================================================
