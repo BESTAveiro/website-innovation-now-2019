@@ -196,10 +196,10 @@ function partnersLogo() {
                     items: 2
                 },
                 751: {
-                    items: 3
+                    items: logoSlide.children().length >= 3 ? 3 : logoSlide.children().length
                 },
                 1001: {
-                    items: 5
+                    items: logoSlide.children().length >= 5 ? 5 : logoSlide.children().length
                 }
             }
         })
