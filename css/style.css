@@ -565,6 +565,7 @@ td{
   margin-bottom: 20px;
   padding: 118px 0px 65px 0px;
   overflow: hidden;
+  height: 393px;
 }
 #atividades .single-service-content p {
   font-size: 120%;
@@ -615,35 +616,20 @@ td{
           transform: translate3D(0,0,0);
 }
 
-#atividades .square1 {
-  height: 393px;
-}
-
-#atividades .square2 {
-  height: 523px;
-}
-
 @media (max-width: 1200px) and (min-width: 991px) {
-  #atividades .square1 {
+  #atividades .single-service-content {
     height: 419px;
-  }
-  #atividades .square2 {
-    height: 627px;
   }
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
-  #atividades .square1 {
+  #atividades .single-service-content {
     height: 523px;
-  }
-  #atividades .square2 {
-    height: 809px;
   }
 }
 
 @media(max-width: 768px) {
-  #atividades .square1,
-  #atividades .square2 {
+  #atividades .single-service-content {
     height: auto;
   }
 }
