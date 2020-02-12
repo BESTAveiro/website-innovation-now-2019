@@ -28,7 +28,27 @@
     top: 2%;
     left: 28%;
     margin-bottom: 0%;
+    margin-top: 0;
     z-index: 20;
+}
+
+@media screen and (max-width: 991px) {
+    .logodiv {
+        margin-top: 6rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .logodiv {
+        margin-top: -5rem;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .logodiv {
+        max-width: 55%;
+        left: 22.5%;
+    }
 }
 
 .brand-img {
@@ -49,6 +69,23 @@
 
 .project-button {
     border-color: #1B75BC;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .d-md-block {
+        display: block;
+    }
+    .d-md-none {
+        display: none;
+    }
 }
 
 
