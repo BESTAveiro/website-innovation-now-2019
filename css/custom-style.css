@@ -92,9 +92,9 @@
 /*                                                       SCHEDULE*/
 
 .menu {
-    position: relative;
-    margin-top: 70%;
-    margin-bottom: 16%;
+    position: absolute;
+    margin-top: 30vh;
+    margin-bottom: 50vh;
     left: 50%;
     width: 0px;
     transform: translate(-50%, 55%);
@@ -335,7 +335,7 @@
 
 .menu2 {
     position: relative;
-    margin-top: 30%;
+    margin-top: 10vh;
     margin-bottom: 16%;
     left: 50%;
     width: 0px;

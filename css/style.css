@@ -526,7 +526,29 @@ td{
   background-color: #ffffff !important;
   color: #595959;
 }
+/*** 
 
+====================================================================
+  REGULAMENTO
+====================================================================
+
+ ***/
+ #regulamento {
+  background: #1e1e1e;
+ }
+ 
+#regulamento .theme-title h2,
+#regulamento .theme-title p {
+  color:#fff;
+}
+
+#regulamento a {
+  text-align: center;
+  color:white;
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+  font-size: large;
+}
 /*** 
 
 ====================================================================
